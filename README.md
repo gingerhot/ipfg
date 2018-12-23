@@ -21,5 +21,4 @@ ipfg all    # get all available gateway urls
 ipfg help   # show help message
 ```
 And you can import `github.com/gingerhot/utils` in your code, just as what I do in the [main.go](./main.go).
-There're two methods for you: `Get()` and `ActiveList()`. More detail: [godoc](https://godoc.org/github.com/gingerhot/ipfg)
-
+There're two methods for you: `Get()` and `ActiveList()`. More detail: [godoc](https://godoc.org/github.com/gingerhot/ipfg/utils)

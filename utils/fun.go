@@ -18,6 +18,7 @@ const GATEWAY_LIST_URL = "https://raw.githubusercontent.com/ipfs/public-gateway-
 
 var r = strings.NewReplacer(":hash", HASH_TO_TEST)
 
+// Get get only one active gateway url
 func Get() (r string, err error) {
 	list := gatewayList()
 	if len(list) < 1 {
@@ -32,7 +33,7 @@ func Get() (r string, err error) {
 	return <-ch, nil
 }
 
-// get all active gateway list
+// ActiveList get all active gateway list
 func ActiveList() (result []string, err error) {
 	list := gatewayList()
 	if len(list) < 1 {

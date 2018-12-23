@@ -1,8 +1,8 @@
 # Public IPFS Gateway Checker in Golang
 
-This's a Golang migration from:
+This's a Golang version that migrate from:
 
-* [public-gateway-checker](https://github.com/ipfs/public-gateway-checker) A online webpage of JS version
+* [public-gateway-checker](https://github.com/ipfs/public-gateway-checker) An online webpage of JS version
 * [ipfg](https://github.com/JayBrown/Tools/tree/master/ipfg)  A shell cli version
 
 ### Install

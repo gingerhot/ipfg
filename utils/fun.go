@@ -14,7 +14,7 @@ import (
 
 const HASH_TO_TEST = "Qmaisz6NMhDB51cCvNWa1GMS7LU1pAxdF4Ld6Ft9kZEP2a"
 const HASH_STRING = "Hello from IPFS Gateway Checker"
-const GATEWAY_LIST_URL = "https://raw.githubusercontent.com/ipfs/public-gateway-checker/master/gateways.json"
+const GATEWAY_LIST_URL = "https://raw.githubusercontent.com/ipfs/public-gateway-checker/master/gateways.txt"
 
 var r = strings.NewReplacer(":hash", HASH_TO_TEST)
 
